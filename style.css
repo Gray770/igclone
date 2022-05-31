@@ -1,0 +1,270 @@
+html, body {
+    margin: 0 auto;
+    background-color: #FAFAFA;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 21px;
+}
+
+p {
+    margin: 0;
+}
+
+.navbar{
+    max-width: 100%;
+    height: 50px;
+    background: #fff;
+    border-bottom: 1px solid #dfdfdf;
+    display: flex;
+    justify-content: center;
+    padding: 5px 5px;
+}
+
+.nav-wrapper{
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchbox{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 30px;
+    background: #EFEFEF;
+    border: 0px;
+    border-radius: 8px;
+    color: rgba(0, 0, 0, 0.5);
+    text-transform: capitalize;
+    padding-left: 10px
+}
+
+.searchbox:focus{
+    outline: none;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-items {
+    padding: 12px;
+    height: 24px;
+    width: 24px;
+}
+
+.photostatus {
+    width: 56px;
+    height: 56px;
+    border: palevioletred solid 3px;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.status {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 15px auto;
+    background-color: #FFFFFF;
+    height: 90px;
+    width: 470px;
+    border: 1px solid #e3e2e2;
+    border-radius: 5px;
+}
+
+.statusname {
+    max-width: 92px;
+    display: flex;
+}
+
+.statusname span {
+    margin-left: auto;
+    margin-right: auto;
+    text-overflow: ellipsis;
+    overflow:hidden;
+    font-size: 14px;
+    color: black;
+}
+
+li a {
+    text-decoration: none;
+}
+.postfeed {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 1.5em;
+}
+
+.post {
+    background-color: #FFFFFF;
+    border: 1px solid #e3e2e2;
+    border-radius: 5px;
+    width: 470px;
+}
+
+.post-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.6em;
+}
+
+.post-top a {
+    display: flex;
+    text-decoration: none;
+    color: #000;
+    align-items: center;
+}
+.top-img {
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.moreoptions {
+    display: flex;
+    align-items: center;
+    padding-right: 5px;
+}
+
+.moreoptions img{
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.imgbox {
+    display: flex;
+    justify-content: center;
+    background-color: #999999;
+}
+
+.imgbox img {
+    max-width: 100%;
+    max-height: 600px;
+}
+
+.buttons {
+    margin: 1em;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.buttons img{
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.likes {
+    margin: 1em;
+    margin-bottom: 0.5em;
+}
+
+.authorcomment {
+    margin-left: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.authorcomment span{
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.authorcomment p{
+    margin: 0;
+}
+
+.showcomments a{
+    margin-left: 1em;
+    color:#999999;
+    text-decoration: none;
+}
+
+.comments a{
+    margin-left: 1em;
+    color:#000;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.postcomment {
+    margin-top: 5px;
+    border: 1px solid #e3e2e2;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    
+    
+}
+
+.postcomment input{
+    border: none;
+    margin: 1em;
+    outline: none;
+}
+
+
+.profile-picture {
+    height: 150px;
+    width: 150px;
+    margin-right: 50px;
+}
+
+.profile-page-avatar {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+header h2 {
+    font-weight: 300;
+}
+
+.info  {
+    display: flex;
+    flex-direction: column;
+}
+.stats {
+    padding: 0;
+}
+
+.stats li {
+    margin-right: 15px;
+}
+
+.postspanel {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    border-top: solid black 1px;
+    margin: 0 auto;
+}
+
+.postspanel button{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px 15px;
+}
