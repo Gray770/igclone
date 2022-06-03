@@ -268,3 +268,23 @@ header h2 {
     cursor: pointer;
     padding: 5px 15px;
 }
+
+.userposts {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.post-list {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: center;
+    grid-gap: 10px;
+}
+
+.post-image img {
+    width: 300px;
+    height: 300px;
+}
+
+  
