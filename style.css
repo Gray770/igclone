@@ -275,6 +275,11 @@ header h2 {
     padding: 15px;
 }
 
+.userposts a {
+    text-decoration: none;
+    color: #000;
+}
+
 .post-list {
     display: grid;
     grid-template-columns: 300px 300px 300px;
@@ -287,4 +292,25 @@ header h2 {
     height: 300px;
 }
 
-  
+.post-image span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-stats span{
+    margin-right: 20px;
+}
+
+.post-stats img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
