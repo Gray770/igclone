@@ -287,6 +287,11 @@ header h2 {
     grid-gap: 10px;
 }
 
+.container {
+    position: relative;
+    text-align: center;
+}
+
 .post-image img {
     width: 300px;
     height: 300px;
@@ -299,18 +304,21 @@ header h2 {
 }
 
 .post-stats {
-    display: flex;
-    justify-content: center;
+    background: rgba(0,0,0, .4);
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 300px;
+    height: 300px;
+    color: white;
     align-items: center;
-}
+    justify-content: center;
+  }
 
+.container:hover .post-stats{
+    display: flex;
+  }
+  
 .post-stats span{
-    margin-right: 20px;
+    margin: 0.5em;
 }
-
-.post-stats img{
-    width: 20px;
-    height: 20px;
-    margin-right: 5px;
-}
-
